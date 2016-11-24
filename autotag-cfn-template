@@ -1,0 +1,11 @@
+"Resource": {
+ "AutoTag": {
+  "Type": "Custom::LambdaAutoTag",
+  "DependsOn": "........",
+  "Properties": {
+   "ServiceToken": "arn of Lamdafunction",
+   "instance-id": {"Ref": "........"},
+   "instance-name": {"Ref": "........"}
+  }
+ }
+}
