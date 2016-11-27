@@ -1,5 +1,9 @@
-##IAM Policies
+Create an AMI role and attache bellow policies with Trust Relationship
 
+
+#IAM Policies
+
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -29,10 +33,11 @@
     }
   ]
 }
+```
 
+#Trust Relationship
 
-##Trust Relationship
-
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -45,3 +50,4 @@
     }
   ]
 }
+```
